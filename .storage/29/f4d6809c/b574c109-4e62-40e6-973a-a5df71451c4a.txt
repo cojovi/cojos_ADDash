@@ -1,0 +1,37 @@
+$ cd /data/chats/x2h7w/workspace/shadcn-ui
+$ cd /data/chats/x2h7w/workspace/shadcn-ui && pnpm i react-beautiful-dnd @types/react-beautiful-dnd && pnpm run lint
+
+Progress: resolved 1, reused 0, downloaded 0, added 0
+ WARN  deprecated react-beautiful-dnd@13.1.1: react-beautiful-dnd is now deprecated. Context and options: https://github.com/atlassian/react-beautiful-dnd/issues/2672
+Progress: resolved 69, reused 67, downloaded 1, added 0
+Progress: resolved 454, reused 416, downloaded 8, added 0
+Packages: +12
+++++++++++++
+Progress: resolved 523, reused 438, downloaded 12, added 11
+Progress: resolved 523, reused 438, downloaded 12, added 12, done
+
+dependencies:
++ @types/react-beautiful-dnd 13.1.8
++ react-beautiful-dnd 13.1.1 deprecated
+
+Done in 4.5s
+
+> shadcnui@ lint /data/chats/x2h7w/workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+/data/chats/x2h7w/workspace/shadcn-ui/src/components/KanbanBoard.tsx
+  38:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/data/chats/x2h7w/workspace/shadcn-ui/src/components/KanbanColumn.tsx
+  11:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 2 problems (2 errors, 0 warnings)
+
+ ELIFECYCLE  Command failed with exit code 1.
+$ cd /data/chats/x2h7w/workspace/shadcn-ui && pnpm run lint
+
+
+> shadcnui@ lint /data/chats/x2h7w/workspace/shadcn-ui
+> eslint --quiet ./src
+

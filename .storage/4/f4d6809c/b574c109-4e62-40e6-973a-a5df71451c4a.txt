@@ -1,0 +1,1 @@
+$ cd /data/chats/x2h7w/workspace/shadcn-ui

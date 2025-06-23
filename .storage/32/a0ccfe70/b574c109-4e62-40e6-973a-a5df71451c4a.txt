@@ -1,0 +1,106 @@
+$ cd /data/chats/x2h7w/workspace/shadcn-ui && git init && git add . && git commit -m "Initial commit of FocusDash - ADHD-friendly Task Dashboard" && gh repo create FocusDash --public --description "An ADHD-friendly visual dashboard for surfacing Notion tasks" --source=. --push
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /data/chats/x2h7w/workspace/shadcn-ui/.git/
+[master (root-commit) 510a64d] Initial commit of FocusDash - ADHD-friendly Task Dashboard
+ 91 files changed, 10940 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .mgx/config.yaml
+ create mode 100644 README.md
+ create mode 100644 components.json
+ create mode 100644 eslint.config.js
+ create mode 100644 index.html
+ create mode 100644 package.json
+ create mode 100644 pnpm-lock.yaml
+ create mode 100644 postcss.config.js
+ create mode 100644 public/favicon.svg
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.tsx
+ create mode 100644 src/components/AmbientModeToggle.tsx
+ create mode 100644 src/components/BucketHeader.tsx
+ create mode 100644 src/components/KanbanBoard.tsx
+ create mode 100644 src/components/KanbanCard.tsx
+ create mode 100644 src/components/KanbanColumn.tsx
+ create mode 100644 src/components/MicroList.tsx
+ create mode 100644 src/components/PaginationDots.tsx
+ create mode 100644 src/components/PomodoroTimer.tsx
+ create mode 100644 src/components/SlideView.tsx
+ create mode 100644 src/components/Ticker.tsx
+ create mode 100644 src/components/ui/accordion.tsx
+ create mode 100644 src/components/ui/alert-dialog.tsx
+ create mode 100644 src/components/ui/alert.tsx
+ create mode 100644 src/components/ui/aspect-ratio.tsx
+ create mode 100644 src/components/ui/avatar.tsx
+ create mode 100644 src/components/ui/badge.tsx
+ create mode 100644 src/components/ui/breadcrumb.tsx
+ create mode 100644 src/components/ui/button.tsx
+ create mode 100644 src/components/ui/calendar.tsx
+ create mode 100644 src/components/ui/card.tsx
+ create mode 100644 src/components/ui/carousel.tsx
+ create mode 100644 src/components/ui/chart.tsx
+ create mode 100644 src/components/ui/checkbox.tsx
+ create mode 100644 src/components/ui/collapsible.tsx
+ create mode 100644 src/components/ui/command.tsx
+ create mode 100644 src/components/ui/context-menu.tsx
+ create mode 100644 src/components/ui/dialog.tsx
+ create mode 100644 src/components/ui/drawer.tsx
+ create mode 100644 src/components/ui/dropdown-menu.tsx
+ create mode 100644 src/components/ui/form.tsx
+ create mode 100644 src/components/ui/hover-card.tsx
+ create mode 100644 src/components/ui/input-otp.tsx
+ create mode 100644 src/components/ui/input.tsx
+ create mode 100644 src/components/ui/label.tsx
+ create mode 100644 src/components/ui/menubar.tsx
+ create mode 100644 src/components/ui/navigation-menu.tsx
+ create mode 100644 src/components/ui/pagination.tsx
+ create mode 100644 src/components/ui/popover.tsx
+ create mode 100644 src/components/ui/progress.tsx
+ create mode 100644 src/components/ui/radio-group.tsx
+ create mode 100644 src/components/ui/resizable.tsx
+ create mode 100644 src/components/ui/scroll-area.tsx
+ create mode 100644 src/components/ui/select.tsx
+ create mode 100644 src/components/ui/separator.tsx
+ create mode 100644 src/components/ui/sheet.tsx
+ create mode 100644 src/components/ui/sidebar.tsx
+ create mode 100644 src/components/ui/skeleton.tsx
+ create mode 100644 src/components/ui/slider.tsx
+ create mode 100644 src/components/ui/sonner.tsx
+ create mode 100644 src/components/ui/switch.tsx
+ create mode 100644 src/components/ui/table.tsx
+ create mode 100644 src/components/ui/tabs.tsx
+ create mode 100644 src/components/ui/textarea.tsx
+ create mode 100644 src/components/ui/toast.tsx
+ create mode 100644 src/components/ui/toaster.tsx
+ create mode 100644 src/components/ui/toggle-group.tsx
+ create mode 100644 src/components/ui/toggle.tsx
+ create mode 100644 src/components/ui/tooltip.tsx
+ create mode 100644 src/components/ui/use-toast.ts
+ create mode 100644 src/contexts/AmbientModeContext.tsx
+ create mode 100644 src/contexts/TaskContext.tsx
+ create mode 100644 src/data/mockData.ts
+ create mode 100644 src/hooks/use-mobile.tsx
+ create mode 100644 src/hooks/use-toast.ts
+ create mode 100644 src/hooks/useLocalStorage.ts
+ create mode 100644 src/index.css
+ create mode 100644 src/lib/utils.ts
+ create mode 100644 src/main.tsx
+ create mode 100644 src/pages/Dashboard.tsx
+ create mode 100644 src/pages/Index.tsx
+ create mode 100644 src/pages/NotFound.tsx
+ create mode 100644 src/vite-env.d.ts
+ create mode 100644 tailwind.config.ts
+ create mode 100644 template_config.json
+ create mode 100644 tsconfig.app.json
+ create mode 100644 tsconfig.json
+ create mode 100644 tsconfig.node.json
+ create mode 100644 vite.config.ts
+bash: line 1: gh: command not found

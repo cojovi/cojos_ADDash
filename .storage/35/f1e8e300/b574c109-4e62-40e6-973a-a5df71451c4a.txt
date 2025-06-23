@@ -1,0 +1,2 @@
+$ cd /data/chats/x2h7w/workspace && zip -r focusdash.zip shadcn-ui/
+bash: line 1: zip: command not found
